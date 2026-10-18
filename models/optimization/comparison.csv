@@ -1,0 +1,4 @@
+configuration,filters,dropout,learning_rate,best_epoch,train_accuracy,val_accuracy,val_loss,training_time_seconds,model_path
+deeper_cnn,"[32, 64, 128, 256]",0.45,0.001,6,0.8457602858543396,0.8544031381607056,0.4260292947292328,728.13,C:\Users\ycode\Desktop\image detection DL\models\optimization\deeper_cnn.keras
+higher_dropout,"[32, 64, 128]",0.45,0.001,4,0.8111213445663452,0.823091983795166,0.5004625916481018,504.92,C:\Users\ycode\Desktop\image detection DL\models\optimization\higher_dropout.keras
+baseline,"[32, 64, 128]",0.25,0.001,4,0.8549022674560547,0.8148728013038635,0.5545133948326111,520.97,C:\Users\ycode\Desktop\image detection DL\models\optimization\baseline.keras
